@@ -1,2 +1,2 @@
 # ONG-ZOE
-Projeto ONG Intituto ZOE
+Projeto ONG Instituto ZOE
