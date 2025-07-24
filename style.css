@@ -12,12 +12,6 @@ body {
 }
 
 
-.hero {
-  background: linear-gradient(45deg, var(--laranja), var(--amarelo));
-  color: white;
-  padding: 80px 20px;
-  text-align: center;
-}
 
 .section-title {
   color: var(--azul);
@@ -82,6 +76,7 @@ footer {
   transition: color 0.3s ease;
   font-weight: bold;
   font-size: 18px;
+  cursor: pointer;
 }
 
 .custom-navbar .nav-link:hover {
@@ -100,8 +95,47 @@ footer {
 
 .social-icons .social-link:hover {
   background-color: var(--laranja); 
-  color: white; 
+  color: white;
+  cursor: pointer; 
 }
 
+.banner-container {
+  background-color: var(--amarelo); /* fundo laranja */
+  padding: 0;
+  margin: 0;
+}
 
+.banner-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border: none;
+}
 
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+body {
+  padding-top: 70px;
+}
+
+ .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .video-container iframe {
+    position: absolute;
+    top: 1;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
